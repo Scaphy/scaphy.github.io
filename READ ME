@@ -1,0 +1,73 @@
+Utiliser 
+
+<b></b>
+<i></i>
+<u></u>
+<s></s>
+<strike></strike>
+<font color="" size="" >Texte</font>
+x<sup>2</sup>
+H<sub>2</sub>
+<br/>
+<pre></pre>
+<h1></h1>
+<h6></h6>
+<hr width=""/>
+<hr size=""/>
+<em></em>
+<strong></strong>
+<p></p>
+<mark></mark>/* surlignage stabilo */
+
+/* ancrage */
+<a href="#something" >Seciton 5</a>
+<p id="something">cgqhkunlqsuygfnxquhgnkcsqnhgxqhgcrnsgh</p>
+<a href="mailto:scaphydata@scaphydata.com" >Envoyer moi un mail</a>
+
+/* tanleaux */
+<td rowspan="2">kutdjydjyddky</td>
+/* Formulaires  */
+atributs autofocus et placeholder
+<input type="button" value="Click me" onclick="alert('Ce site est factice')" />
+<input type="date" />
+<input type="time" />
+<input type="week" />
+<input type="month" />
+<input type="range" />
+
+<seclect>
+    <optgroup value="">
+        <option value="" selected></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option></option>
+    </optgroup>
+</seclect>
+
+<video src="video.mp" controls poster="image.pdf" width="" height="" >
+
+</video>// A verifier normalement on intergre des versions de types d'encodage
+ CSS3
+
+ a [title] { /tous les  a qui ont un title 
+    ...
+ }
+ a [title="valeur1"] { /tous les  a qui ont un title qui ont pour valeur valeur1
+    ...
+ }
+
+artribut font-style italic, oblique, normal
+
+.maj {
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: capitalize;
+}
+.maj {
+    text-decoration: underline;
+    text-decoration: line-throught;
+    text-decoration: overline;
+}
+body {
+    background:linear-gradient(red,yellow,blue,orange); //on peut sêcifier des pourcentages
+}

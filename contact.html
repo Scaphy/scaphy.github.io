@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Exercice 10</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="icon" type="image/gif" href="Logo_Scaphydata_02.png" >
+    </head>
+    <body>
+    <header>
+        <h1>Exercice 10</h1>
+    </header>
+    <main>
+    <section>
+        <header>  
+            <p class="headerliens" ><a href="activites.html" >Activites</a><a href="exemplesElementsHTML.html" >Des &eacute;l&eacute;ments</a><a href="contact.html" >Contact</a><a href="https://developer.mozilla.org/fr/docs/Web/HTML" >La Doc !!!</a></p>
+        
+        
+            <div class="extradoor1">
+                <h2>Mon portfolio (The real one !!! )</h2>
+                <a href="https://www.scaphydata.com" ><img src="img/sitewebdescaphydata.PNG" alt="portofolio de scaphydata" title="Veuillez cliquer" /></a>
+            </div>
+        </header>
+    <section>
+        <div>
+            <h2>Formulaire de contact</h2>
+            <form action="traitement.php" method="POST" >
+                <fieldset>
+                <legend >Veuillez renseigner </legend>
+                <label for="nom" >Nom</label>
+                <input type="texte" id="nom" name="nom" placeholder="Ecrire ici" /><br/>
+                <label for="prenom" >Prénom</label>
+                <input type="texte" id="prenom" name="prenom" placeholder="Ecrire ici" /><br/>
+                <label for="age" >Age</label>
+                <input type="number" id="age" name="age" placeholder="20" /><br/>
+                <label for="date" >Date</label>
+                <input type="date" id="date" name=date"/><br/>
+                <p>Genre</p>
+                <input type="checkbox" id="sexM" name="masulin" /><label for="sexM">Masulin</label><br/>
+                <input type="checkbox" id="sexF" mame="feminin" /><label for="sexF">Féminin</label><br/>
+                <input type="radio" id="etudiantretraite" mame="etudiantretraite" /><label for="etudiantretraite">Etudiant / Retraité</label><br/>
+                <input type="radio" id="travailleur" mame="travailleur" checked/><label for="travailleur">Travailleur</label><br/>
+                <label for="fichierafournir">Si vous avez un doucument à fournir !</label><br/>
+                <input type="file" name="file" id="fichierafournir" ><br/>
+                <label for="" >Votre discipline préférée</label>
+                <div id="disciplinesachoisir">
+                    <select id="disciplines" name="disciplines">
+                        
+                        <optgroup label="Langues">Langues</optgroup>
+                        <option value="Francais">Francais</option>
+                        <option value="Anglais">Anglais</option>
+                        <option value="Espagnol">Espagnol</option>
+                        <option value="Italien">Italien</option>
+                        <option value="Autres">Autres</option>
+                        <optgroup label="Sciences">Sciences</optgroup>
+                        <option value="Informatique"selected>Informatique</option>
+                        <option value="Mathematiques">Mathematiques</option>
+                        <option value="Physique">Physique</option>
+                        <option value="Chimie">Chimie</option>
+                        <option value="Autres">Autres</option>
+                        <optgroup label="Arts">Arts</optgroup>
+                        <option value="Acrhitecture">Acrhitecture</option>
+                        <option value="Musique">Musique</option>
+                        <option value="Peinture">Peinture</option>
+                        <option value="Autres">Autres</option>
+
+                    </select><br/>
+                </div>
+                <textarea cols="30" rows="10" name="message" >Ecrire ici les messages</textarea><br/>
+                <input type="button" value="Click me" onclick="alert('Ce site est factice')" />     
+                <input type="reset" name="effacer" value="Effacer" /> 
+                <input type="submit" name="envoyer" value="Envoyer" />
+            </fieldset> 
+            </form>
+        </div>
+    </section>
+    <section>
+        <div class="retouraccueil" >
+            <a href="index.html" title="Back again" >Retour accueil</a>
+        </div>
+    </section>
+    </main>
+    <footer>
+        <div class="logoscaphy" >
+            <img src="img/Logo_Scaphydata_02.png" alt="logoscaphydata" class="logofooter"/>
+        </div>
+        <p class="comments">Ce site &aacute;&eacute;t&eacute; cod&eacute; dans le cadre d'un exercice de la formation au titre de Concepteur D&eacute;veloppeur d'Apllication JAVA de l'&eacute;cole WEBFORCE3. Il est responsive  mobile first alors amusez vous surfez dessus et cliquez partout !!!</p>
+        <p class="footerliens" ><a href="contact.html" >Contact</a><a href="exemplesElementsHTML.html" >Des &eacute;l&eacute;ments</a><a href="cvg.pdf" download="cvg.pdf">Cgv</a><a href="https://developer.mozilla.org/fr/docs/Web/HTML" >La Doc !!!</a></p>    
+    </footer>
+    </body>
+</html>
