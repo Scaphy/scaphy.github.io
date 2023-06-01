@@ -203,7 +203,7 @@ footer img {
     margin: 0 auto;
 
 }
-footer .footerliens a
+footer .footerliens a, footer .cvcharger a
 {
     padding: 15px;
     color: darkred;
@@ -211,14 +211,28 @@ footer .footerliens a
     font-size: 1.25em;
     font-weight: bolder;
 }
-footer .footerliens a:hover
+footer .footerliens a:hover, footer .cvcharger a:hover
 {
     padding: 15px;
     color: darkred;
     background-color: green;
     font-size: 1.25em;
     font-weight: bolder;
-}/* @media (min-width: 30em) and (max-width: 50em) */
+}
+.cvcharger
+{
+    margin: 20px;
+}
+.formulairecontact form
+{
+    text-align: center;
+    margin: 15px auto;
+}
+.formulairecontact input
+{
+    text-align: left;
+}
+/* @media (min-width: 30em) and (max-width: 50em) */
 @media screen and (min-width: 640px) and (max-width: 1199px){
     header .extradoor1 img
     {
